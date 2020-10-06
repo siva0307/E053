@@ -1,0 +1,12 @@
+import numpy as np
+data = np.load('channel_test.npy').item()
+data["actions"]
+
+import numpy as np
+data = np.load('channel_test.npy')
+
+data
+
+np.savetxt("output.csv",data, delimiter=None)
+
+
